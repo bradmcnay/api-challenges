@@ -19,7 +19,7 @@ define('APIKEY', $_ENV['api_key']);
 // Set what flavor and size you want.
 $desiredImage = "CentOS 6.3";
 $desiredFlavor = "512MB Standard Instance";
-$serverAmount = "1";
+$serverAmount = "3";
 
 // establish our credentials
 $connection = new Rackspace
